@@ -1,0 +1,14 @@
+name: talk2biomed
+channels:
+- anaconda
+- conda-forge
+- defaults
+dependencies:
+  - python
+  - pip:
+    - streamlit
+    - openai
+    - llama-index
+    - llama-index-llms-openai
+    - nltk
+    - pypdf
