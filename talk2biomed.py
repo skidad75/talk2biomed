@@ -50,4 +50,4 @@ if st.session_state.messages[-1]["role"] != "assistant":
             st.session_state.messages.append(message) # Add response to message history
 
 from streamlit_extras.mention import mention
-mention(label=f"{file_name}", url=url_name)
+mention(label=f"{from_documents}", url=url_name)
