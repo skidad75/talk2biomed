@@ -8,7 +8,7 @@ except ImportError:
 
 st.set_page_config(page_title="Talk2Biomed, expert help with medical equipment engineering", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
-st.title("Chat with the Biomed Knowledge Base 💬")
+st.title("Chat with the Biomed Knowledge Base💬")
 st.info("Check out my projects (https://github.com/skidad75", icon="📃")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
