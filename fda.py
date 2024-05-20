@@ -10,7 +10,7 @@ st.title("FDA Data")
 This request structure pulls down JSON from the API into a Python readable request format using the built-in request dunder module. The Sample uses FDA device model data
 """
 
-url = "https://api.fda.gov/device/event.json?search=date_received:[20230101+TO+20241231]&limit=5"
+url = "https://api.fda.gov/device/event.json?search=date_received:[20200101+TO+20241231]&limit=1"
 
 payload = {}
 headers = {
