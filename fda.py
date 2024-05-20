@@ -12,7 +12,7 @@ url = "https://api.fda.gov/device/event.json?search=date_received:[20130101+TO+2
 
 payload = {}
 headers = {
-  'Authorization': Basic 'Gyw2G5ZHScnftGXZxopdCwaM3R2fZYq5B96P9ZNK',
+  'Authorization':'Gyw2G5ZHScnftGXZxopdCwaM3R2fZYq5B96P9ZNK',
   'Api-Version': '<string>',
   'Accept': 'application/json'
 }
