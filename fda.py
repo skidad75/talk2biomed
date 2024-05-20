@@ -22,5 +22,4 @@ response = requests.request("GET", url, headers=headers, data=payload)
 #print the request, you can also import a web assembly module using python flask or my personal fav streamlit st functions
 
 #st.write(response.text)
-st.dataframe(data=response, width=None, height=None, *, use_container_width=False, hide_index=None, column_order=None, column_config=None)
-
+st.json(response)
