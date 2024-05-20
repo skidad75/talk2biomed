@@ -20,7 +20,5 @@ headers = {
 response = requests.request("GET", url, headers=headers, data=payload)
 
 #print the request, you can also import a web assembly module using python flask or my personal fav streamlit st functions
+st.json(response)
 
-data = response("""{"event_type":,"","source_type": ["Health Professional","User facility","Company representation"],""date_added":,""}""")
-
-st.json(data)
